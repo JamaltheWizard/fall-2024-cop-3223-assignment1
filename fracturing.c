@@ -21,23 +21,29 @@ double radius(diameter){
     
 radius =diameter(diameter)/2
 
+return radius;
 }
 
-double diameter(diameter){
+double diameter(diameter)
+{
 
     diameter= calculateDistance()
 }
+
 double calculateDistance() 
 {
     double xOne;
     double xTwo;
     double yOne;
     double yTwo;
-    scanf()
+    xDistance=xTwo-xOne;
+    yDistance 
+    scanf("%d", xTwo)
+    scanf("%d", xOne)
     printf("-Point #1 entered: x1= %3f ; y1= %3f",xOne, xTwo );
     
 
-    return Distance
+    return distance;
 }
 double calculatePerimeter()
 {
@@ -72,6 +78,7 @@ double calculateHeight(){
 
 
 }
+
 int main() 
 {
 double calculateDistance();
