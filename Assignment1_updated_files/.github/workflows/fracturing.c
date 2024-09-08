@@ -36,11 +36,13 @@ double calculateDistance()
     double xTwo;
     double yOne;
     double yTwo;
+    scanf("%d", xTwo);
+    scanf("%d", xOne);
+    scanf("%d", yOne);
+    scanf("%d", yTwo);
+    printf("-Point #1 entered: x1= %3f ; y1= %3f",xOne, xTwo );
     xDistance=xTwo-xOne;
     yDistance 
-    scanf("%d", xTwo)
-    scanf("%d", xOne)
-    printf("-Point #1 entered: x1= %3f ; y1= %3f",xOne, xTwo );
     
 
     return distance;
