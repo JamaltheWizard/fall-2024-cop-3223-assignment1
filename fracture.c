@@ -99,7 +99,7 @@ double calculateHeight()
 
 
 
-
+// Calls other Functions
 int main(int argc, char **argv) 
 {
   calculateDistance();
