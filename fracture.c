@@ -1,6 +1,6 @@
 //********************************************************
 // Assignment-1-program.c
-// Author: 
+// Author: Jamal Bouarib
 // Date: 9/8/24
 // Class: COP 3223, 
 // Purpose: This program is designed to calculate Area, width,Height
@@ -14,23 +14,21 @@
 #include<math.h>
 #define PI 3.14159
 
-// Helper function asks for x value inputs
+// Helper function inputs x values
 double askXCoordinateInputs() 
 
 {
 
     double xCoordinate;
-    printf("Enter x coordinate ");
     scanf("%lf", &xCoordinate);
 
     return xCoordinate;
 }
- // Helper function asks for y value inputs
+ // Helper function inputs y values
  double askYCoordinateInputs() 
  {
 
     double yCoordinate;
-    printf("Enter y coordinate ");
     scanf("%lf", &yCoordinate);
     
     return yCoordinate;
@@ -77,7 +75,7 @@ double calculateArea()
     double diameter=calculateDistance();
     double area = PI*pow((diameter/2),2);
 
-    printf("The area of the city encompassed by your request is  %.3f \n", area);
+    printf("The area of the city encompassed by your request is %.3f \n", area);
 
     return 1.0;
 }
